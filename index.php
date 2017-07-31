@@ -4,7 +4,7 @@ $backg = "#fff";
 if(isset($_POST['submit']) && isset($_POST['rgb'])){
     $backg = select_rgb($_POST['rgb']);
 }
-
+echo 'this is index to test git';
 
 ?>
 <!doctype html>
