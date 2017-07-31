@@ -4,7 +4,7 @@ $backg = "#fff";
 if(isset($_POST['submit']) && isset($_POST['rgb'])){
     $backg = select_rgb($_POST['rgb']);
 }
-
+echo 'this is index to test git';
 
 ?>
 <!doctype html>
@@ -14,7 +14,7 @@ if(isset($_POST['submit']) && isset($_POST['rgb'])){
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Doc</title>
 </head>
 <body style="background-color: <?php echo $backg?>">
 <form action="" method="POST">
